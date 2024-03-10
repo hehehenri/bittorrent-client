@@ -7,5 +7,5 @@ fn main() {
 
     let torrent = Torrent::from_bytes(&bytes).unwrap();
 
-    dbg!(torrent);
+    dbg!(torrent.announce);
 }
